@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS/snk.js"></script>
+    <title>SnakeGame</title>
+    <style>
+        body{
+            background-color: black;
+            text-align: center;
+        }
+        h1{
+            font-size: 40px;
+            font-family: "Comic Sans MS";
+            color:white;
+        }
+        canvas{
+            border:2px solid white;
+            border-radius: 5px;
+            box-shadow: 3px 3px white;
+        }
+        button{
+            margin-top:10px;
+            width:180px;
+            height:25px;
+            border:2px solid white;
+            background-color: grey;
+            color:white;
+            border-radius: 12px;
+            box-shadow: 3px 3px white;
+        }
+        button:hover{
+            background-color:yellowgreen;
+            box-shadow: 1px 1px white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <canvas id="board"></canvas>
+    <br>
+    <button onClick="window.location.reload();">Start the Game Again</button>
+</body>
+</html>
